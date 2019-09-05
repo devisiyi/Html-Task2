@@ -6,6 +6,16 @@
 <link rel ="stylesheet" href = "style2.css">
 </head>
 <body>
+  <div class="sidebar-contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" name="" minlength="4" placeholder="Name" required>
+      <input type="email" name="" placeholder="email">
+      <input type="text" name="" minlength="4" placeholder="Title" required>
+      <textarea placeholder="Message" minlength="20" required></textarea>
+      <input type="submit" name="" value="Send">
+    </form>
+  </div>
   <div class="container">
     <Section>
       <div>
@@ -168,6 +178,15 @@
           </div>
         </div> <!--end links-->
         </div>
+      </body>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+        $(".sidebar-contact").validate();
+          });
+        </script>
+        </head>
+        </html>
       </section>
 
 
